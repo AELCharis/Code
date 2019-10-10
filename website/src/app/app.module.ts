@@ -12,6 +12,8 @@ import { PricingComponent } from './pricing/pricing.component';
 import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ConfigService } from './config.service';
 
 @NgModule({
   declarations: [
@@ -28,9 +30,10 @@ import { NavigationComponent } from './navigation/navigation.component';
     NavigationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [ConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
