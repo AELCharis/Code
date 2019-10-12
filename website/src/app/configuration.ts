@@ -54,8 +54,8 @@ export const configuration = {
     ]
   },
   pricing: {
-    tagline: 'YOUR CHOICE\n',
-    title: 'We have the right package for you\n',
+    tagline: 'YOUR CHOICE',
+    title: 'We have the right package for you',
     description: '',
     plans:  [
       {title: 'PERSONAL', subtitle: 'The standard version', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '19', currency: '$',
@@ -93,6 +93,24 @@ export const configuration = {
     {target: '_blank', title: 'Twitter', username: 'zapitis_ch', icon: 'twitter', link: 'https://www.twitter.com/'},
     {target: '_blank', title: 'Instagram', username: 'zapitis_ch', icon: 'fa-instagram', link: 'https://www.instagram.com/'},
     {target: '_blank', title: 'Behance', username: 'zapitis_ch', icon: 'fa-behance', link: 'https://www.behance.com/'}
-  ]
+  ],
+
+  blog: {
+    tagline: 'My Blog',
+    title: 'Blog title here',
+    posts: [
+      {id: 1, title: 'The first Article', author: 'AD', image: 'gallery-image-1.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 2, title: 'The second Article', author: 'AD', image: 'gallery-image-2.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 3, title: 'The third Article', author: 'AD', image: 'gallery-image-3.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 4, title: 'The fourth Article', author: 'AD', image: 'gallery-image-4.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 5, title: 'The fifth Article', author: 'AD', image: 'gallery-image-5.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 6, title: 'The sixth Article', author: 'AD', image: 'gallery-image-6.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 7, title: 'The seven Article', author: 'AD', image: 'gallery-image-1.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 8, title: 'The eight Article', author: 'AD', image: 'gallery-image-2.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 9, title: 'The nine Article', author: 'AD', image: 'gallery-image-3.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 10, title: 'The ten Article', author: 'AD', image: 'gallery-image-4.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'},
+      {id: 11, title: 'The eleven Article', author: 'AD', image: 'gallery-image-5.jpg', publishdate: '2019-10-12T07:22Z', excert: ' This is the summary of article 1'}
+    ]
+  }
 
 };
